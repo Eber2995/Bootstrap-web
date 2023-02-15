@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+#menu button{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    max-height: 35rem;
+}
+
+@media (max-width:760px){
+
+    #pp{
+        width:90% !important;
+    }
+
+}
+footer{
+    background:black;
+    min-height: 100px;
+}
+footer p{
+    color:aliceblue;
+    text-align: center;
+
+}
+
+#iconos{
+    font-size:30px ;
+    padding: 0 10px;
+    color: white;
+}
